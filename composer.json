@@ -1,0 +1,5 @@
+{
+    "require": {
+        "2checkout/2checkout-php": "^0.3.1"
+    }
+}

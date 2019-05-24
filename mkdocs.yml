@@ -1,0 +1,18 @@
+site_name: 2Checkout payment processor
+repo_url: https://github.com/mattwire/civicrm-twocheckout
+theme: material
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - codehilite
+  - toc(permalink=true)
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
+
+pages:
+- Setup and Configuration: index.md
+- Release Notes: release/release_notes.md
