@@ -21,7 +21,7 @@ class CRM_Core_Payment_TwocheckoutIPN extends CRM_Core_Payment_BaseIPN {
    */
   public function __construct($ipnData) {
     $this->_params = $ipnData;
-    $this->_paymentProcessor = $this->getPaymentProcessor();
+    $this->getPaymentProcessor();
     $this->_processorName = E::ts('2checkout');
     parent::__construct();
   }
