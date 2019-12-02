@@ -1,3 +1,7 @@
+# MOVED TO https://lab.civicrm.org/extensions/2checkout
+
+
+
 # 2Checkout
 
 This extension integrates 2Checkout with CiviCRM using the "Payments API".
